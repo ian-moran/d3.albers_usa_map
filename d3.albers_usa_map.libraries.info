@@ -1,0 +1,14 @@
+name = Albers USA Map 
+description = D3 visualization library
+files[js][] = topojson.v1.min.js
+files[js][] = albers_usa_map.js
+files[css][] = albers_usa_map.css
+views = 3.0
+version = 0.1
+views_fields_data_key = rows
+views_fields[rows][state][label] = State
+views_fields[rows][state][type] = string
+views_fields[rows][state][description] = The ID of the state to be displayed at the top of the column. This should be the taxonomy term state ID field.
+views_fields[rows][content][label] = Content
+views_fields[rows][content][type] = string
+views_fields[rows][content][description] = The content to be displayed for each state. Fields can be combined into a global field and then used for this selection.
